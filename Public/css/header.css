@@ -1,0 +1,19 @@
+.header--parapho{
+    text-align: center;
+    margin:15px;
+}
+.header{
+    background-color:var(--colorAmarillo) ;
+}
+
+.header--photo{
+    margin:10px;
+}
+.header__button{
+    background-color:var(--colorCeleste);
+    margin:10px 10px 20px 140px;
+    padding:10px;
+}
+
+
+

@@ -1,8 +1,26 @@
-.root{
+*{
+    box-sizing: border-box;
+    margin : 0;
+}
+:root{
     --colorAmarillo:#EAC926;
     --colorAzul:#03264C;
-    --coloCeleste:#1259c3;
+    --colorCeleste:#1259c3;
     --colorGrisOcuro:#666;
     --colorGrisClaro:#ebebeb;
     --colorVerde:#39b54a;
+  
 }
+body.home{
+    font-family:'Roboto';
+    font-size: 12px;
+}
+ ul{
+    list-style: none;
+    text-align:left;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+
