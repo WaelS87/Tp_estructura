@@ -8,18 +8,23 @@
 
 .header--photo{
     margin:10px;
+    padding:10px;
 }
 .header__button{
     background-color:var(--colorCeleste);
     margin:10px 10px 20px 140px;
     padding: 6px 8px;
     color:white;
+    
 }
 .header--icon{
     color:black;
 }
 .header li a{
     color:black
+}
+header nav ul{
+    margin-bottom: 20px;
 }
 
 
