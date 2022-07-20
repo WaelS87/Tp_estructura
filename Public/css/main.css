@@ -1,155 +1,241 @@
-main{
+main {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--colorGrisClaro);
 }
-main div img{
-   
-    width:100%;
-   
+
+main div img {
+
+    width: 100%;
+
 }
-main section{
+
+main section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-main h3{
+
+main h3 {
     font-size: 24px;
     margin-bottom: 15px;
     background-color: var(--colorGrisClaro);
     margin-left: 10px;
 }
-main section article{  
+
+main section article {
     background-color: white;
     border: 1px solid black;
     margin-bottom: 15px;
-    
-    
-} 
-main section article div{
+
+
+}
+
+main section article div {
     border: 1px solid #ebebeb;
     width: 100%;
     position: relative;
 }
-main section article div i{
+
+main section article div i {
     display: block;
-   background-color :#FFF;
-   color:green;
-   font-size: 16px;
-   width:30px;
-   height: 30px;
-   border:1px solid green;
-   border-radius:50%;
-   padding:5px;
-   position: absolute;
-   right: 20px;
-   top:-15px;
-   
-}
-main section article div p.precio{
-    font-size: 18px;
-    margin-left:15px;
-}
-main section article div p.descuento{
+    background-color: #FFF;
+    color: green;
     font-size: 16px;
-    color:green;
+    width: 30px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+}
+
+main section article div p.precio {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+main section article div p.descuento {
+    font-size: 16px;
+    color: green;
     margin: 0 0 15px 15px;
 }
-main section article div h4{
+
+main section article div h4 {
     font-size: 16px;
     margin-bottom: 25px;
-    display:none;
+    display: none;
 }
-@media(min-width:768px){
-    main section{
-    box-shadow: 0px 0px 10px rgb(100,100,100);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   
+
+
+
+
+
+@media(min-width:768px) {
+    main section {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
     }
-    main section article{
-        width:49%;
+
+
+    main section article {
+        width: 49%;
     }
-    .header__button i{
-      display:none;
+
+    .btn {
+        display: none;
     }
-    ul {
-        list-style: none;
-        text-align:left;
-        padding:10px;
-        display:list-item;
-       
-    }
-    .header--button{
-        margin:10px;
-        padding: 10px;
-    }
-    .header h1{
-        margin:10px;
-        padding:10px;
-    }
-    main section article div h4{
-        font-size: 16px;
-        margin-bottom: 25px;
-        display:inline-block;
-    }
-    header{
+
+    .caja--general {
         display: flex;
         flex-direction: row;
-        
-    }
-    .header--photo{
-        margin:10px;
-        padding:10px;
-        width:49%;
-        display: flex;
         flex-wrap: wrap;
+        width: 100%;
     }
 
+    div.header--parapho {
+        text-align: center;
+        margin: 20px;
+        width: 30%;
+    }
+
+    div.header--search {
+        width: 30%;
+        padding: 10px;
+        margin-left: 5px;
+        text-align: center;
+        margin-bottom: 15px;
 
 
 
+    }
 
-}
-@media(min-width:1024px){
-    main section{
-        box-shadow: 0px 0px 10px rgb(100,100,100);
+    .menu {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+
+
+
+        padding: 10px;
+
+
+    }
+
+    .first--menu {
+        display: flex;
+
+        width: 100%;
         justify-content:space-between;
 
     }
-    main section article{
-        width:49%;
+
+    .first {
+        width: 40%;
+        justify-content: flex-start;
     }
-    .header__button i{
-       
-        display:none;
+
+    .second {
+        display: flex;
+        justify-content: flex-end;
+
+        width: 40%;
+
     }
-    ul {
-        list-style: none;
-        text-align:left;
-        padding:10px;
-        display:list-item;
-        
+
+    .second--menu {
+
+        display: flex;
+        width: 100%;
+        justify-content:space-between;
+
+
+
+
     }
-    .header--button{
-        margin:10px;
-        padding: 10px;
-    }
-    main section article div h4{
+
+
+    main section article div h4 {
         font-size: 16px;
         margin-bottom: 25px;
-        display:inline-block;
+        display: inline-block;
     }
-  
+
+    .header {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+
+
+    div.header--photo {
+        padding: 15px;
+        width: 33%;
+        margin-bottom: 10px;
+    }
    
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1024px) {
+    main section {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    main section article {
+        width: 49%;
+    }
+
+    .header__button i {
+
+        display: none;
+    }
+
+    ul {
+        list-style: none;
+        text-align: left;
+        padding: 10px;
+        display: list-item;
+
+    }
+
+
+    main section article div h4 {
+        font-size: 16px;
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+
+
 
 
 
 
 
 }
-
-

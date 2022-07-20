@@ -1,62 +1,111 @@
-.header{
-    background-color:var(--colorAmarillo) ;
+.header {
+    background-color: var(--colorAmarillo);
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-
 }
-header.padre{
+
+.caja--general {
     display: flex;
-    flex-direction: row
-
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-
-.header--parapho{
+.header--parapho {
     text-align: center;
-    margin:15px;
-}
-
-
-.header--photo{
-    margin:10px;
-    padding:10px;
-    width:49%;
+    margin: 20px;
+    width: 90%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.header--photo {
+    padding: 15px;
+    width: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.header--photo img {
+    width: 100%;
+
+}
+
+.form__button--search {
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+
+
+}
+
 .header--search {
-    width:49%;
+    width: 48%;
+    padding: 10px;
+    margin-left: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+
+}
+
+.form__box--search {
+    position: relative;
+    margin: 10px;
+    width: 100%;
+}
+
+.form__box--search input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.header--photo--buscar {
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
-    float: right;
-    order: 0;
+
+    flex-wrap: wrap;
+    display: inline-block;
+
+
+}
+
+
+.header__button {
+    display: flex;
+    justify-content: center;
+    
+margin-bottom: 15px;
+}
+.header__button i{
+    display:flex;
+    background-color: var(--colorCeleste);
+    color:#fff;
+    justify-content: center;
+    align-items: center;
     
     
    
-}   
-.header__button{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.header__button i{
-    border: none;
-    background-color: var(--colorCeleste);
-    padding: 10px ;
-    color:white;
+    width: 30px;
+    height: 30px;
     
-    border-radius: 15%;
-    width: 100%;
-}
-.header--icon{
-    color:black;
-}
-.header li a{
-    color:black
+   
 }
 
 
+.header--icon {
+    color: black;
+}
 
-
+.header li a {
+    color: black
+}
