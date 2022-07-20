@@ -56,19 +56,25 @@ main section article div i {
 main section article div p.precio {
     font-size: 18px;
     margin-left: 15px;
+    width:70%;
+   
 }
 
-main section article div p.descuento {
+main section article div span.descuento {
     font-size: 16px;
     color: green;
     margin: 0 0 15px 15px;
+    width:70%;
+   
 }
 
 main section article div h4 {
     font-size: 16px;
     margin-bottom: 25px;
+    
     display: none;
 }
+
 
 
 
@@ -82,10 +88,18 @@ main section article div h4 {
         justify-content: space-between;
 
     }
+    main section article div h4 {
+        font-size: 16px;
+        margin-bottom: 25px;
+       
+    }
 
 
     main section article {
         width: 49%;
+    }
+    main section article div{
+        text-align: center;
     }
 
     .btn {
@@ -209,7 +223,7 @@ main section article div h4 {
     }
 
     main section article {
-        width: 49%;
+        width: 24%;
     }
 
     .header__button i {
@@ -230,6 +244,9 @@ main section article div h4 {
         font-size: 16px;
         margin-bottom: 25px;
         display: inline-block;
+    }
+    main section article img{
+        width:100%;
     }
 
 
