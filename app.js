@@ -5,8 +5,8 @@ const puerto=3030;
 app.use(express.static('Public'))
 
 app.get('/',(req,res)=>res.sendFile(path.join(__dirname,'views','home.html')))
-pp.get('/register',(req,res)=>res.sendFile(path.join(__dirname,'views','register.html')))
-pp.get('/login',(req,res)=>res.sendFile(path.join(__dirname,'views','login.html')))
+app.get('/register',(req,res)=>res.sendFile(path.join(__dirname,'views','register.html')))
+app.get('/login',(req,res)=>res.sendFile(path.join(__dirname,'views','login.html')))
 
 
 
