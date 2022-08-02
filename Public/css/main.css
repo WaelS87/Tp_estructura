@@ -14,6 +14,7 @@ main section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
 }
 
 main h3 {
@@ -27,6 +28,7 @@ main section article {
     background-color: white;
     border: 1px solid black;
     margin-bottom: 15px;
+    align-content: flex-start;
 
 
 }
@@ -50,6 +52,11 @@ main section article div i {
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: 1s;
+
+}
+main section article div i:hover{
+    transform: rotate(360deg);
 
 }
 
@@ -72,7 +79,15 @@ main section article div h4 {
     font-size: 16px;
     margin-bottom: 25px;
     
-    display: none;
+   width:100%;
+   height: 0;
+   overflow: hidden;
+   transition: all 0.5s;
+}
+main section article:hover h4 {
+    height: 40px;
+
+
 }
 
 
@@ -86,6 +101,7 @@ main section article div h4 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+       
 
     }
     main section article div h4 {
